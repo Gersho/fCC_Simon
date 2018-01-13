@@ -1,0 +1,220 @@
+
+#green {
+    height: 245px;
+    width: 245px;
+    border-top-left-radius: 100%;
+    border-color: black;
+    border-width: 14px;
+    border-style: solid;
+    z-index: 1;
+    position: fixed;
+    top: 70px;
+    left: 245px;
+}
+
+
+
+#red {
+  height: 245px;
+  width: 245px;
+   border-top-right-radius: 100%;
+   border-color: black;
+   border-width: 14px;
+   border-style: solid;
+     z-index: 1;
+     position: fixed;
+     top: 70px;
+     left: 490px;
+}
+
+#yellow {
+  height: 245px;
+  width: 245px;
+   border-bottom-left-radius: 100%;
+   border-color: black;
+   border-width: 14px;
+   border-style: solid;
+     z-index: 1;
+     position: fixed;
+     top: 315px;
+     left: 245px;
+}
+
+#blue {
+  height: 245px;
+  width: 245px;
+   border-bottom-right-radius: 100%;
+   border-color: black;
+   border-width: 14px;
+   border-style: solid;
+     z-index: 1;
+     position: fixed;
+     top: 315px;
+     left: 490px;
+}
+
+.menuform {
+  width: 210px;
+  height: 210px;
+  z-index: 2;
+  background-color: pink;
+  border-radius: 50%;
+     border-style: solid;
+  border-color: black;
+  border-width: 14px;
+  position: fixed;
+  top: 210px;
+  left: 385px;
+
+}
+
+.green-off {
+  background-color: green;
+}
+
+.blue-off {
+  background-color: blue;
+}
+
+.red-off {
+  background-color: red;
+}
+
+.yellow-off {
+  background-color: yellow;
+}
+
+
+.green-on {
+  background-color: springgreen;
+}
+
+.blue-on {
+  background-color: skyblue;
+}
+
+.red-on {
+  background-color: lightcoral;
+}
+
+.yellow-on {
+  background-color: darkorange;
+}
+
+
+.led-on {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    z-index: 3;
+    border-radius: 50%;
+    border-style: solid;
+ border-color: black;
+ border-width: 2px;
+}
+
+.led-off {
+    background-color: darkred;
+    width: 10px;
+    height: 10px;
+    z-index: 3;
+    border-radius: 50%;
+    border-style: solid;
+ border-color: black;
+ border-width: 2px;
+}
+
+.basicbtn {
+  background-color: grey;
+  width: 28px;
+  height: 28px;
+  z-index: 3;
+  border-radius: 50%;
+  border-style: solid;
+border-color: black;
+border-width: 3px;
+
+}
+
+.count {
+background-color: black;
+width: 52px;
+height: 35px;
+    z-index: 3;
+    border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  position: fixed;
+  top: 322px;
+  left: 427px;
+  font-family: 'Segment7Standard';
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+  text-align: center;
+
+}
+
+
+.powertext {
+  font-size: 14px;
+  position: fixed;
+  top: 252px;
+  left: 434px;
+
+}
+
+
+#powerled {
+  position: fixed;
+  top: 258px;
+  left: 485px;
+
+}
+
+#powerbtn {
+  position: fixed;
+  top: 245px;
+  left: 502px;
+
+}
+
+.stricttext {
+    font-size: 14px;
+  position: fixed;
+  top: 283px;
+  left: 434px;
+
+}
+
+
+#strictled {
+  position: fixed;
+  top: 290px;
+  left: 485px;
+
+}
+
+#strictbtn {
+  position: fixed;
+  top: 280px;
+  left: 502px;
+
+}
+
+
+
+.resettext {
+    font-size: 14px;
+  position: fixed;
+  top: 329px;
+  left: 500px;
+
+}
+
+#resetbtn {
+  position: fixed;
+  top: 350px;
+  left: 503px;
+
+}
